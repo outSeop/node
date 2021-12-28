@@ -9,9 +9,9 @@
 		<div class="contact contact-index">
 			<h2>Index</h2>
 			<ul>
-				<% contact.forEach((contact) => { %>
+				<% contacts.forEach((contact) => { %>
 					<li>
-						<%= contact.name %>
+						<a href="/contacts/<%= contact._id %>"><%= contact.name %></a>
 					</li>
 
 				 <% }) %>
