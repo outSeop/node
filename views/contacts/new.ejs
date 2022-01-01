@@ -6,10 +6,10 @@
 	<body>
 		<%- include('../partials/nav') %>
 
-		<div class="contact contact-new"></div>
+		<div class="container contact contact-new"></div>
 		<h2>New</h2>
 		<form class="contact-form" action="/contacts" method="post">
-			<div>
+			<div class="form-group">
 				<label for="name">Name</label>
 				<input type="text" id="name" name="name" value="">
 			</div>
@@ -17,12 +17,12 @@
 				<label for="email">Email</label>
 				<input type="text" id="email" name="email" value="">
 			</div>
-			<div>
+			<div class="form group">
 				<label for="phone">Phone</label>
 				<input type="text" id="phone" name="phone" value="">
 			</div>
 			<div>
-				<button type="submit">Submit</button>
+				<button type="submit" class="btn btn-primary">Submit</button>
 			</div>
 		</form>
 	</body>
